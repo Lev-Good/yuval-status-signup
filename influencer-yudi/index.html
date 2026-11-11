@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>הצטרפות לסטטוס של יובל סודאי</title>
+  <meta name="description" content="השאירו שם ומספר — יובל יוסיף אתכם לסטטוס הוואטסאפ תוך 24 שעות. בלי ספאם.">
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="../assets/status.css">
+  <script type="module" src="../assets/status.js"></script>
+</head>
+<body data-track="influencer-yudi">
+  <main>
+    <section aria-labelledby="title">
+      <div class="content">
+        <h1 id="title">רוצים להצטרף לסטטוס שלי? שתי שניות.</h1>
+        <p class="intro">השאירו שם ומספר — אוסיף אתכם לסטטוס תוך 24 שעות. לא יהיה ספאם, רק תוכן שתרצו לראות.</p>
+        <div class="card">
+          <form novalidate>
+            <label>שם פרטי
+              <input name="name" required maxlength="100" autocomplete="given-name">
+            </label>
+            <label>מספר וואטסאפ
+              <input name="phone" type="tel" dir="ltr" required maxlength="30" autocomplete="tel" placeholder="050-000-0000">
+            </label>
+            <p id="error" role="alert" hidden></p>
+            <button type="submit" disabled>מצטרף/ת לסטטוס — ללא עלות</button>
+            <noscript>יש להפעיל JavaScript כדי לשלוח את הטופס.</noscript>
+          </form>
+          <div id="success" role="status" tabindex="-1" hidden>
+            <p><strong>✅ מעולה! קיבלנו. יובל יוסיף אתכם לסטטוס תוך 24 שעות.</strong></p>
+            <p>טיפ: שמרו את המספר <span dir="ltr">053-452-4138</span> באנשי הקשר שלכם כדי לראות את הסטטוס ברגע שתתווספו.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
